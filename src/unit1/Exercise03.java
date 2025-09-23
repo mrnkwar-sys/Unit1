@@ -8,9 +8,13 @@ public class Exercise03 {
 		// Create a new Scanner
 		Scanner sc = new Scanner(System.in);
 		
-		//declare the variables
+		//The year someone was born
 		int bornYear;
+		
+		//The current year
 		int thisYear;
+		
+		//The age of the person
 		int yourAge;
 		
 		//The console waits for us to introduce the values

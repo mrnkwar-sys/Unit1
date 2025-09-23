@@ -8,7 +8,7 @@ public class Exercise01 {
 		// create a new Scanner
 		Scanner sc = new Scanner(System.in);
 
-		// declare the numero variable
+		// The number written in the console
 		int numero;
 
 		// Print the value in the console

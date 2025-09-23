@@ -8,10 +8,16 @@ public class Exercise04 {
 		// Create a new Scanner
 		Scanner sc = new Scanner(System.in);
 		
-		//declare the variables
+		//First mark
 		float mark1;
+		
+		//Second Mark
 		float mark2;
-		float sum;
+		
+		//The sum of the marks
+		float sum; 
+		
+		//The final mark
 		float finalMark;
 		
 		//The console waits for us to introduce the values

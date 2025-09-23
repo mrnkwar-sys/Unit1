@@ -8,10 +8,16 @@ public class Exercise05 {
 		//Create a new Scanner
 		Scanner sc = new Scanner(System.in);
 		
-		//Declare the variables
+		//The radio of the circle
 		float radio;
+		
+		//The PI number
 		double piNumber;
+		
+		//The perimeter of the circle
 		double perimeter;
+		
+		//The perimeter of the circle
 		double area;
 		
 		//The console waits for us to introduce the values

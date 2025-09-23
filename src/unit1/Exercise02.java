@@ -8,8 +8,10 @@ public class Exercise02 {
 		// create a new Scanner
 		Scanner sc = new Scanner(System.in);
 		
-		//declare the age variable
+		//The current age of the person
 		int age;
+		
+		//The age of the person next year
 		int b;
 		
 		//Print the value in the console
