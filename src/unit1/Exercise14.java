@@ -18,7 +18,7 @@ public class Exercise14 {
 		int thirdSemester;
 		
 		//Average mark
-		int averageMark;
+		double averageMark;
 		
 		//Academic History's mark
 		double academicHistoryMark;
@@ -34,7 +34,7 @@ public class Exercise14 {
 		thirdSemester = sc.nextInt();
 
 		//We calculate the mark that will be shown in our academic history
-		academicHistoryMark = (double) (firstSemester+secondSemester+thirdSemester)/3;
+		academicHistoryMark = (double)(firstSemester+secondSemester+thirdSemester)/3;
 		
 		//We calculate the average mark
 		averageMark =  (int) academicHistoryMark;
