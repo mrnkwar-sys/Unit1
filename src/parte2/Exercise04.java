@@ -20,9 +20,6 @@ public class Exercise04 {
 		//The value for "x"
 		int numberX;
 		
-		//The value for "y"
-		int numberY;
-		
 		//The "x" multiplied
 		int numberX2;
 		

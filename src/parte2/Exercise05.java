@@ -38,8 +38,8 @@ public class Exercise05 {
 		minutes = secondsAsked>=60 ? restHours/60 : 0;
 		
 		//Calculate the seconds
-		restMinutes = minutes%60;
-		seconds = secondsAsked<=60 ? restMinutes/60 : 0;
+		restMinutes = secondsAsked%60;
+		seconds = secondsAsked>=60 ? restMinutes : 0;
 		
 		//The results are shown in the console
 		System.out.println("Sus segundos son: " + hours + "h" + minutes + "min" + seconds + "s");
