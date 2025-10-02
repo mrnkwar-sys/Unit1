@@ -8,9 +8,6 @@ public class Exercise15 {
 		// Create a Scanner
 		Scanner sc = new Scanner(System.in);
 		
-		//Constant IVA
-		final int IVA = 21;
-		
 		//The price the user has introduced
 		double price;
 		

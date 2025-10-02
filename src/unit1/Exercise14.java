@@ -24,13 +24,13 @@ public class Exercise14 {
 		double academicHistoryMark;
 		
 		//The console waits for us to introduce our marks
-		System.out.println("Tus notas del primer trimestre:");
+		System.out.println("Tu nota del primer trimestre:");
 		firstSemester = sc.nextInt();
 		
-		System.out.println("Tus notas el segundo simestre:");
+		System.out.println("Tu nota el segundo simestre:");
 		secondSemester = sc.nextInt();
 		
-		System.out.println("Tus notas el tercer trimestre:");
+		System.out.println("Tu nota el tercer trimestre:");
 		thirdSemester = sc.nextInt();
 
 		//We calculate the mark that will be shown in our academic history
