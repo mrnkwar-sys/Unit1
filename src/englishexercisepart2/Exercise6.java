@@ -31,7 +31,13 @@ public class Exercise6 {
 		teams = students/teamSize;
 		
 		//We calculate how many students will be left out of a team
-		restStudents = students/teams;
+		restStudents = students-teams*teamSize;
+		
+		//We show the results in the console
+		System.out.println("You can create " + teams + " teams, but " + restStudents + " students will be left without a team");
+		
+		//Close Scanner
+		sc.close();
 		
 
 	}
